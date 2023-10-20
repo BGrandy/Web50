@@ -59,5 +59,27 @@ outline: none;
 
 input[type=submit]{
     padding: 3px 16px;
+}
 
+.headerLogo {
+    height: 24px;
+    width: 74px;
+    margin: 20px 20px;
+}
+
+.AdvSearchHeading {
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: arial,sans-serif;
+}
+
+.formStructure{
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
 }
