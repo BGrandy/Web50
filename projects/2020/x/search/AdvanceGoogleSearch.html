@@ -9,18 +9,37 @@
 </head>
 
 <body>
-    <div class="headerLogoPlacement">
+    <div style="width: 100px;">
         <a href="index.html"><img src="Logos/GoogleLogo.png" alt="Google Logo" class="headerLogo"></a>
     </div>
-    <div class="AdvSearchHeading">Advance Search</div><hr>
+    <div class="AdvSearchHeading">Advance Search</div>
+    <hr>
 
-    <div >
-        <form action="https://www.google.com/search" class="formStructure">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-        </form>
-    </div>
+    <form action="https://www.google.com/search">
+        <div class="advSearchFlex">
+        <div class="advSearchSpacing">
+            <p>all these words:</p>
+            <p>this exact word or phrase:</p>
+            <p>any of these words:</p>
+            <p>none of these words:</p>
+            <p>numbers ranging from:</p>
+        </div>
+        <div class="advSearchSpacing" style="width: 550px;">
+            <input type="text" name="as">
+            <input type="text" name="as">
+            <input type="text" name="as">
+            <input type="text" name="as">
+            <input type="text" name="as"><p>to</p><input type="text" name="as">
+        </div>
+        <div class="advSearchSpacing" style="padding-left: 15px; width: auto;">
+            <p>Type the important words:<span style="padding-left: 15px;">tricolor rat terrier</span></p>
+            <p>Put exact words in quotes:<span style="padding-left: 15px;">"rat terrier"</span></p>
+            <p>Type Or between all the words you want:<span style="padding-left: 15px;">miniature OR standard</span></p>
+            <p>Put a minus sign just before words you dont want:<span style="padding-left: 15px;">-rodent, -"Jack Russell</span></p>
+            <p>Put 2 periods between the numbers and add a unit of measure:<span style="padding-left: 15px;">10..35 lb, $300..$500, 2010..2011</span></p>
+        </div>
+        </div>
+    </form>
+
+
 </html>
